@@ -3,7 +3,7 @@ from src.exception import CustomException
 from src.logger import logging as lg
 import os,sys
 
-from src.pipeline.train_pipeline import TrainingPipeline
+# from src.pipeline.train_pipeline import TrainingPipeline
 from src.pipeline.predict_pipeline import PredictionPipeline
 
 app = Flask(__name__)
@@ -13,16 +13,16 @@ def home():
     return jsonify("home")
 
 
-@app.route("/train")
-def train_route():
-    try:
-        train_pipeline = TrainingPipeline()
-        train_pipeline.run_pipeline()
+# @app.route("/train")
+# def train_route():
+#     try:
+#         train_pipeline = TrainingPipeline()
+#         train_pipeline.run_pipeline()
 
-        return "Training Completed."
+#         return "Training Completed."
 
-    except Exception as e:
-        raise CustomException(e,sys)
+#     except Exception as e:
+#         raise CustomException(e,sys)
 
 @app.route('/predict', methods=['POST', 'GET'])
 def predict():
@@ -46,4 +46,5 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080, debug= True)
+    port = int(os.environ.get("PORT", 8080))
+    app.run(host="0.0.0.0", port=port)
