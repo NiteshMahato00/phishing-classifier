@@ -1,8 +1,8 @@
 import sys
-from typing import Optional, List
+from typing import List
 
-from database_connect import mongo_operation as mongo
-from pymongo import MongoClient
+# from import mongo_operation as mongo
+# from pymongo import MongoClient
 import numpy as np
 import pandas as pd
 from src.constant import *
@@ -34,18 +34,18 @@ class PhisingData:
         collection_names = mongo_db_client[self.database_name].list_collection_names()
         return collection_names
 
-    def get_collection_data(self,
-                            collection_name: str) -> pd.DataFrame:
+    def get_collection_data(self, collection_name: str) -> pd.DataFrame:
 
-        mongo_connection = mongo(
-            client_url=self.mongo_url,
-            database_name=self.database_name,
-            collection_name=collection_name
-        )
-        df = mongo_connection.find()
+        client = MongoClient(self.mongo_url)
+        db = client[self.database_name]
+        collection = db[collection_name]
 
-        if "_id" in df.columns.to_list():
+        data = list(collection.find())
+        df = pd.DataFrame(data)
+
+        if "_id" in df.columns:
             df = df.drop(columns=["_id"])
+
         df = df.replace({"na": np.nan})
         return df
 
