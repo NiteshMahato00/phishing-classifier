@@ -6,7 +6,7 @@ from pymongo import MongoClient
 import numpy as np
 import pandas as pd
 from src.constant import *
-from src.configuration.mongo_db_connection import MongoDBClient
+from pymongo import MongoClient
 from src.exception import CustomException
 import os
 
