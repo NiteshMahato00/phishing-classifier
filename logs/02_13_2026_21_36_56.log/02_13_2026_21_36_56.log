@@ -1,0 +1,15 @@
+[ 2026-02-13 21:36:57,562 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2026-02-13 21:36:57,572 ] 224 werkzeug - INFO -  * Debugger PIN: 897-833-847
+[ 2026-02-13 21:37:42,150 ] 109 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2026-02-13 21:37:42,151 ] 28 root - INFO - Copying local CSV files into raw data folder
+[ 2026-02-13 21:37:42,155 ] 42 root - INFO - Local files copied successfully
+[ 2026-02-13 21:37:42,155 ] 114 root - INFO - Got the data from mongodb
+[ 2026-02-13 21:37:42,155 ] 116 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2026-02-13 21:37:42,155 ] 283 root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2026-02-13 21:37:42,155 ] 286 root - INFO - Initiated data validation for the dataset
+[ 2026-02-13 21:37:42,157 ] 79 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2026-02-13 21:37:42,179 ] 108 root - INFO - Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+[ 2026-02-13 21:37:42,188 ] 224 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 21:37:42] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2026-02-13 21:37:42,216 ] 224 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 21:37:42] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2026-02-13 21:37:42,216 ] 224 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 21:37:42] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2026-02-13 21:37:42,224 ] 224 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 21:37:42] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

@@ -1,0 +1,12 @@
+[ 2026-02-14 02:50:10,556 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2026-02-14 02:50:10,569 ] 224 werkzeug - INFO -  * Debugger PIN: 897-833-847
+[ 2026-02-14 02:50:59,656 ] 1254 botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[ 2026-02-14 02:51:00,316 ] 56 root - INFO - Entered the load_object method of MainUtils class
+[ 2026-02-14 02:51:00,330 ] 62 root - INFO - Exited the load_object method of MainUtils class
+[ 2026-02-14 02:51:00,330 ] 35 root - INFO - Entered predict method of srcTruckModel class
+[ 2026-02-14 02:51:00,330 ] 38 root - INFO - Using the trained model to get predictions
+[ 2026-02-14 02:51:00,337 ] 42 root - INFO - Used the trained model to get predictions
+[ 2026-02-14 02:51:00,404 ] 104 root - INFO - predictions completed. 
+[ 2026-02-14 02:51:00,404 ] 35 root - INFO - prediction completed. Downloading prediction file.
+[ 2026-02-14 02:51:00,408 ] 224 werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 02:51:00] "POST /predict HTTP/1.1" 200 -
+[ 2026-02-14 02:53:57,271 ] 224 werkzeug - INFO -  * Detected change in '/Users/niteshkumarmahato/Desktop/Pip/phishing classifier/app.py', reloading

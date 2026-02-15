@@ -1,0 +1,29 @@
+[ 2026-02-13 21:52:24,844 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2026-02-13 21:52:24,855 ] 224 werkzeug - INFO -  * Debugger PIN: 897-833-847
+[ 2026-02-13 21:52:30,261 ] 109 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2026-02-13 21:52:30,262 ] 28 root - INFO - Copying local CSV files into raw data folder
+[ 2026-02-13 21:52:30,265 ] 42 root - INFO - Local files copied successfully
+[ 2026-02-13 21:52:30,265 ] 114 root - INFO - Got the data from mongodb
+[ 2026-02-13 21:52:30,265 ] 116 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2026-02-13 21:52:30,266 ] 283 root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2026-02-13 21:52:30,266 ] 286 root - INFO - Initiated data validation for the dataset
+[ 2026-02-13 21:52:30,269 ] 79 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2026-02-13 21:52:30,285 ] 108 root - INFO - Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+[ 2026-02-13 21:52:30,310 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-02-13 21:52:30,310 ] 47 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-02-13 21:52:30,310 ] 167 root - INFO - Splitting training and testing input and target feature
+[ 2026-02-13 21:52:30,310 ] 169 root - INFO - Extracting model config file path
+[ 2026-02-13 21:52:30,310 ] 56 root - INFO - Entered the load_object method of MainUtils class
+[ 2026-02-13 21:52:30,311 ] 62 root - INFO - Exited the load_object method of MainUtils class
+[ 2026-02-13 21:52:30,311 ] 173 root - INFO - Extracting model config file path
+[ 2026-02-13 21:53:17,000 ] 208 root - INFO - Best found model on both training and testing dataset
+[ 2026-02-13 21:53:17,001 ] 215 root - INFO - Saving model at path: artifacts/02_13_2026_21_52_23/model_trainer/trained_model/model.pkl
+[ 2026-02-13 21:53:17,001 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-02-13 21:53:17,002 ] 47 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-02-13 21:53:17,202 ] 224 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 21:53:17] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2026-02-13 21:53:17,258 ] 224 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 21:53:17] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2026-02-13 21:53:17,259 ] 224 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 21:53:17] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2026-02-13 21:53:17,273 ] 224 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 21:53:17] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2026-02-13 21:53:17,302 ] 224 werkzeug - INFO - 127.0.0.1 - - [13/Feb/2026 21:53:17] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2026-02-13 21:58:12,232 ] 224 werkzeug - INFO -  * Detected change in '/Users/niteshkumarmahato/Desktop/Pip/phishing classifier/app.py', reloading
+[ 2026-02-13 21:58:12,234 ] 224 werkzeug - INFO -  * Detected change in '/Users/niteshkumarmahato/Desktop/Pip/phishing classifier/app.py', reloading

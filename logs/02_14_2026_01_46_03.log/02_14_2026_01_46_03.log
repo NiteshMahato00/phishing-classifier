@@ -1,0 +1,27 @@
+[ 2026-02-14 01:46:05,210 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2026-02-14 01:46:05,223 ] 224 werkzeug - INFO -  * Debugger PIN: 897-833-847
+[ 2026-02-14 01:46:35,659 ] 109 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2026-02-14 01:46:35,659 ] 28 root - INFO - Copying local CSV files into raw data folder
+[ 2026-02-14 01:46:35,663 ] 42 root - INFO - Local files copied successfully
+[ 2026-02-14 01:46:35,663 ] 114 root - INFO - Got the data from mongodb
+[ 2026-02-14 01:46:35,663 ] 116 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2026-02-14 01:46:35,663 ] 283 root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2026-02-14 01:46:35,663 ] 286 root - INFO - Initiated data validation for the dataset
+[ 2026-02-14 01:46:35,666 ] 79 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2026-02-14 01:46:35,688 ] 108 root - INFO - Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+[ 2026-02-14 01:46:35,711 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-02-14 01:46:35,711 ] 47 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-02-14 01:46:35,711 ] 167 root - INFO - Splitting training and testing input and target feature
+[ 2026-02-14 01:46:35,712 ] 169 root - INFO - Extracting model config file path
+[ 2026-02-14 01:46:35,712 ] 56 root - INFO - Entered the load_object method of MainUtils class
+[ 2026-02-14 01:46:35,712 ] 62 root - INFO - Exited the load_object method of MainUtils class
+[ 2026-02-14 01:46:35,712 ] 173 root - INFO - Extracting model config file path
+[ 2026-02-14 01:47:24,467 ] 208 root - INFO - Best found model on both training and testing dataset
+[ 2026-02-14 01:47:24,467 ] 215 root - INFO - Saving model at path: artifacts/02_14_2026_01_46_04/model_trainer/trained_model/model.pkl
+[ 2026-02-14 01:47:24,468 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-02-14 01:47:24,469 ] 47 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-02-14 01:47:24,511 ] 1254 botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[ 2026-02-14 01:47:25,054 ] 224 werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 01:47:25] "GET /train HTTP/1.1" 200 -
+[ 2026-02-14 01:49:39,694 ] 224 werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 01:49:39] "GET /predict HTTP/1.1" 200 -
+[ 2026-02-14 01:49:39,992 ] 224 werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 01:49:39] "[33mGET /script.js HTTP/1.1[0m" 404 -
+[ 2026-02-14 01:49:39,997 ] 224 werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 01:49:39] "GET /static/css/style.css HTTP/1.1" 200 -

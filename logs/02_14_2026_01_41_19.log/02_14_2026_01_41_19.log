@@ -1,0 +1,46 @@
+[ 2026-02-14 01:41:21,244 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2026-02-14 01:41:21,257 ] 224 werkzeug - INFO -  * Debugger PIN: 897-833-847
+[ 2026-02-14 01:41:47,839 ] 109 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2026-02-14 01:41:47,839 ] 28 root - INFO - Copying local CSV files into raw data folder
+[ 2026-02-14 01:41:47,844 ] 42 root - INFO - Local files copied successfully
+[ 2026-02-14 01:41:47,844 ] 114 root - INFO - Got the data from mongodb
+[ 2026-02-14 01:41:47,844 ] 116 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2026-02-14 01:41:47,844 ] 283 root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2026-02-14 01:41:47,844 ] 286 root - INFO - Initiated data validation for the dataset
+[ 2026-02-14 01:41:47,847 ] 79 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2026-02-14 01:41:47,875 ] 108 root - INFO - Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+[ 2026-02-14 01:41:47,901 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-02-14 01:41:47,902 ] 47 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-02-14 01:41:47,902 ] 167 root - INFO - Splitting training and testing input and target feature
+[ 2026-02-14 01:41:47,902 ] 169 root - INFO - Extracting model config file path
+[ 2026-02-14 01:41:47,902 ] 56 root - INFO - Entered the load_object method of MainUtils class
+[ 2026-02-14 01:41:47,902 ] 62 root - INFO - Exited the load_object method of MainUtils class
+[ 2026-02-14 01:41:47,902 ] 173 root - INFO - Extracting model config file path
+[ 2026-02-14 01:42:36,380 ] 208 root - INFO - Best found model on both training and testing dataset
+[ 2026-02-14 01:42:36,380 ] 215 root - INFO - Saving model at path: artifacts/02_14_2026_01_41_20/model_trainer/trained_model/model.pkl
+[ 2026-02-14 01:42:36,380 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-02-14 01:42:36,381 ] 47 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-02-14 01:42:36,590 ] 1254 botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[ 2026-02-14 01:42:40,367 ] 224 werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 01:42:40] "GET /train HTTP/1.1" 200 -
+[ 2026-02-14 01:42:40,485 ] 224 werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 01:42:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2026-02-14 01:42:50,017 ] 109 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2026-02-14 01:42:50,017 ] 28 root - INFO - Copying local CSV files into raw data folder
+[ 2026-02-14 01:42:50,022 ] 42 root - INFO - Local files copied successfully
+[ 2026-02-14 01:42:50,022 ] 114 root - INFO - Got the data from mongodb
+[ 2026-02-14 01:42:50,022 ] 116 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2026-02-14 01:42:50,022 ] 283 root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2026-02-14 01:42:50,022 ] 286 root - INFO - Initiated data validation for the dataset
+[ 2026-02-14 01:42:50,024 ] 79 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2026-02-14 01:42:50,054 ] 108 root - INFO - Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+[ 2026-02-14 01:42:50,087 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-02-14 01:42:50,088 ] 47 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-02-14 01:42:50,088 ] 167 root - INFO - Splitting training and testing input and target feature
+[ 2026-02-14 01:42:50,088 ] 169 root - INFO - Extracting model config file path
+[ 2026-02-14 01:42:50,088 ] 56 root - INFO - Entered the load_object method of MainUtils class
+[ 2026-02-14 01:42:50,088 ] 62 root - INFO - Exited the load_object method of MainUtils class
+[ 2026-02-14 01:42:50,088 ] 173 root - INFO - Extracting model config file path
+[ 2026-02-14 01:43:38,066 ] 208 root - INFO - Best found model on both training and testing dataset
+[ 2026-02-14 01:43:38,067 ] 215 root - INFO - Saving model at path: artifacts/02_14_2026_01_41_20/model_trainer/trained_model/model.pkl
+[ 2026-02-14 01:43:38,067 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2026-02-14 01:43:38,068 ] 47 root - INFO - Exited the save_object method of MainUtils class
+[ 2026-02-14 01:43:38,574 ] 224 werkzeug - INFO - 127.0.0.1 - - [14/Feb/2026 01:43:38] "GET /train HTTP/1.1" 200 -
