@@ -1,4 +1,5 @@
 setuptools
+wheel
 aiofiles
 dill==0.3.5.1
 dnspython==2.2.1
