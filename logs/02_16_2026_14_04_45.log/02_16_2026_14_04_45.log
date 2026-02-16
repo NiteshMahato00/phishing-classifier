@@ -1,0 +1,5 @@
+[ 2026-02-16 14:07:09,652 ] 35 root - INFO - Entered predict method of srcTruckModel class
+[ 2026-02-16 14:07:09,652 ] 38 root - INFO - Using the trained model to get predictions
+[ 2026-02-16 14:09:59,137 ] 35 root - INFO - Entered predict method of srcTruckModel class
+[ 2026-02-16 14:09:59,140 ] 38 root - INFO - Using the trained model to get predictions
+[ 2026-02-16 14:09:59,148 ] 42 root - INFO - Used the trained model to get predictions
